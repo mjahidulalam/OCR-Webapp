@@ -37,19 +37,14 @@ with col1.container():
 
     button = st.button('Run')
 
-    print(data.image_data)
-
-if data.image_data is not None:
-    print("pp")
+if button:
     image_data = data.image_data[:,:,3]
 
-    print(image_data.max())
     img = Image.fromarray(image_data.astype(np.uint8))
     img = img.resize(size=(28, 28))
     img_arr = np.array(img)
     img_arr = img_arr/255
 
-if button:
     img_arr_reshaped = np.reshape(img_arr, (1,28,28))
     predictions = OCR_model.predict(img_arr_reshaped)
     pred_sorted = np.argsort(predictions[0])[::-1]
