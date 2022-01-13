@@ -6,7 +6,7 @@ from PIL import Image
 
 OCR_model = load_model('model/model.h5')
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="OCR", layout="wide")
 
 page_style = """
     <style>
