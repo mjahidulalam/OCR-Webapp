@@ -37,10 +37,14 @@ with col1.container():
 
     button = st.button('Run')
 
+    print(data.image_data)
+
 if data.image_data is not None:
+    print("pp")
     image_data = data.image_data[:,:,3]
 
-    img = Image.fromarray(image_data)
+    print(image_data.max())
+    img = Image.fromarray(image_data.astype(np.uint8))
     img = img.resize(size=(28, 28))
     img_arr = np.array(img)
     img_arr = img_arr/255
