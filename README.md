@@ -7,6 +7,7 @@ Used Streamlit to create a webapp that allows users to draw characters and the t
 
 The CNN model is trained on 297,960 images with a size of 28x28 pixels. A summary of the model used is shown below:
 
+_________________________________________________________________
 Model: "sequential"
 
 | Layer (type)                                  | Output Shape              | Param #  |   
@@ -25,7 +26,8 @@ Model: "sequential"
 | batch_normalization_2 (BatchNormalization)    | (None, 256)               | 1024     |
 | dense (Dense)                                 | (None, 512)               | 131584   | 
 | dense_1 (Dense)                               | (None, 26)                | 13338    | 
-| --------------------------------------------- | ------------------------- | -------- |
+
+
 Total params: 682,138
 Trainable params: 681,242
 Non-trainable params: 896
