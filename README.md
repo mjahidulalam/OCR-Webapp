@@ -5,7 +5,11 @@
 Trained a Convolutional Neural Network using Keras to identify handwritten characters (A-Z) from the MNIST Character dataset.
 Used Streamlit to create a webapp that allows users to draw characters and the trained CNN model is used to predict the letter drawn.
 
-The CNN model is trained on 297,960 images with a size of 28x28 pixels. A summary of the model used is shown below:
+The CNN model is trained on 297,960 images with a size of 28x28 pixels.
+
+![data](model\sample_data.png "Sample Character Data")
+
+ A summary of the model used is shown below:
 
 _________________________________________________________________
 Model: "sequential"
