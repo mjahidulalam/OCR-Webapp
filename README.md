@@ -28,11 +28,9 @@ Model: "sequential"
 | dense_1 (Dense)                               | (None, 26)                | 13338    | 
 
 
-Total params: 682,138
-
-Trainable params: 681,242
-
-Non-trainable params: 896
+Total params: 682,138 \
+Trainable params: 681,242 \
+Non-trainable params: 896 \
 _________________________________________________________________
 
 
