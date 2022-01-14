@@ -30,7 +30,7 @@ Model: "sequential"
 
 Total params: 682,138 \
 Trainable params: 681,242 \
-Non-trainable params: 896 \
+Non-trainable params: 896
 _________________________________________________________________
 
 
