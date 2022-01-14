@@ -4,6 +4,8 @@
 
 Trained a Convolutional Neural Network using Keras to identify handwritten characters (A-Z) from the MNIST Character dataset.
 Used Streamlit to create a webapp that allows users to draw characters and the trained CNN model is used to predict the letter drawn.
+I purpose of building this app is to learn how to export a trained model and use it in a production setting with less emphasis on accuracy of the model itself.
+Although the model achieved a 99% accuracy on the test set, the dataset has a sampling bias and therefore the model is trained on fewer smaples of certain characters. As a result does not perform as well in the real world.
 
 The CNN model is trained on 297,960 images with a size of 28x28 pixels.
 
