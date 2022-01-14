@@ -7,7 +7,7 @@ Used Streamlit to create a webapp that allows users to draw characters and the t
 
 The CNN model is trained on 297,960 images with a size of 28x28 pixels.
 
-![data](https://github.com/mjahidulalam/OCR-Webapp/blob/main/model/sample_data.png "Sample Character Data")
+![data](https://raw.githubusercontent.com/mjahidulalam/OCR-Webapp/main/model/sample_data.png "Sample Character Data")
 
  A summary of the model used is shown below:
 
